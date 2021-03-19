@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|left"
+        android:text="Select Form Type:"
+        android:textColor="#5c5c5c"
+        android:textSize="12sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_fee_type"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingRight="24dp"
+            android:background="@drawable/shape_rounded_stroke"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_arrow_drop_down_black_24dp"/>
+
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sign_up_form_margin"
+        android:layout_marginRight="@dimen/sign_up_form_margin"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/et_hint_color"
+        android:theme="@style/TextLabel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_branch_code_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:hint="Branch Code"
+            android:inputType="number"
+            android:textColor="@color/sing_up_form_text_color"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sign_up_form_margin"
+        android:layout_marginRight="@dimen/sign_up_form_margin"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/et_hint_color"
+        android:theme="@style/TextLabel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_loan_account_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:hint="Loan Account No"
+            android:inputType="number"
+            android:textColor="@color/sing_up_form_text_color"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sign_up_form_margin"
+        android:layout_marginRight="@dimen/sign_up_form_margin"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/et_hint_color"
+        android:theme="@style/TextLabel">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:hint="Mobile No"
+            android:inputType="number"
+            android:textColor="@color/sing_up_form_text_color"
+            android:textSize="15sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_pay_now"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_round_paste_bg"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="Pay Now"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

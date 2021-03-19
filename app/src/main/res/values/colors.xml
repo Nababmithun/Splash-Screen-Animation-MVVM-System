@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29c79c</color>
+    <color name="colorPrimaryDark">#22ab85</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_text_color">#e6e6e6</color>
+    <color name="tab_selected_text_color">#ffffff</color>
+    <color name="tab_indicator_color">#ffffff</color>
+    <color name="package_list_color">#f2f2f2</color>
+    <color name="package_row_header_tv_color">#1C1C1C</color>
+    <color name="first_border_color">#8c8c8c</color>
+    <color name="second_border_color">#cccccc</color>
+    <color name="header_txt_color">#ffffff</color>
+
+    <color name="drawer_item_pressed_color">#78d3b8</color>
+    <color name="drawer_item_focused_color">#78d3b8</color>
+    <color name="drawer_item_normal_color">#ffffff</color>
+    <color name="hint_txt_color">#bfbfbf</color>
+    <color name="et_hint_color">#595959</color>
+    <color name="from_et_hint_color">#737373</color>
+    <color name="asterisk_text_color">#F52238</color>
+    <color name="radio_text_color">#595959</color>
+    <color name="application_form_txt_color">#0d0d0d</color>
+    <color name="intent_chooser_txt_color">#262626</color>
+    <color name="sing_up_form_text_color">#1a1a1a</color>
+    <color name="condition_title_text_color">#ffffff</color>
+    <color name="fragment_zero_btn_txt_color">#262626</color>
+    <color name="faq_btn_txt_color">#131313</color>
+    <color name="item_text_color">#000000</color>
+    <color name="office_activity_txt_color">#000000</color>
+
+    <color name="item_0">#fcc3c3</color>
+    <color name="item1">#90d0bc</color>
+    <color name="item2">#98c6e4</color>
+    <color name="item3">#fee1a5</color>
+    <color name="item4">#eebdf4</color>
+    <color name="item5">#8cd99c</color>
+    <color name="item6">#e8a780</color>
+    <color name="item7">#e79a7e</color>
+    <color name="item8">#a9efd1</color>
+    <color name="item9">#9398eb</color>
+    <color name="item10">#e46767</color>
+    <color name="item12">#68e3ae</color>
+    <color name="item113">#545bde</color>
+    <color name="item11">#eb9447</color>
+    <color name="item15">#99e4ff</color>
+    <color name="item16">#4dcfff</color>
+    <color name="item17">#1d8bbe</color>
+    <color name="item14">#69bafc</color>
+    <color name="selected_tab_text_color">#FC613E</color>
+    <color name="normal_tab_text_color">#444</color>
+    <color name="services_activity_text_color">#ffffff</color>
+    <color name="construction_cost_activity_text_color">#000000</color>
+
+    <color name="color_1">#7fa5f4</color>
+    <color name="color_2">#fcf4c9</color>
+    <color name="color_3">#c4edb3</color>
+    <color name="color_4">#ffb5b5</color>
+    <color name="color_5">#85bada</color>
+    <color name="color_6">#ffffff</color>
+    <color name="unchecked_item_color">#e1e1e1</color>
+    <color name="checked_item_color">#ffffff</color>
+
+</resources>

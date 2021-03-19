@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_desired_loan_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/desired_loan_amount_taka"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/land_acquired_by"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_land_acquired_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_how_acquired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_how_acquired"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/how_acquired"
+                    android:inputType="text"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_land_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/land_area_in_square_feet"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_assumed_rental_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/assumed_rent_income_in_taka_per_sft"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_front_side_road_plan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/front_side_road_in_permitted_plan"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_front_side_road_actual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/front_side_road_at_actual"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_distance_from_main_road"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/distance_from_main_road_feet"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/road_owned_by"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_road_owned_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/front_side_road_type"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rg_front_size_road_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/rb_carpeted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/carpeted"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_rcc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rcc"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_bricks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bricks_made"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_muddy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muddy"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/plan_approved_by"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_plan_approved_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:textColorHint="@color/from_et_hint_color"
+                android:theme="@style/FormTextLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_plan_approved_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:hint="@string/approved_plan_number"
+                    android:inputType="number"
+                    android:textColor="#333333" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".07"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center|left"
+                    android:padding="5dp"
+                    android:text="@string/plan_approval_date"
+                    android:textColor="@color/from_et_hint_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <Button
+                    android:id="@+id/btn_plan_approved_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#13b977"
+                    android:paddingLeft="20dp"
+                    android:text="@string/plan_approval_date"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".93"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="@color/asterisk_text_color"
+                android:textSize="@dimen/application_form_txt_size" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/present_condition_of_project"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner_present_condition_of_project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardBackgroundColor="#e6e6e6"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight=".07"
+                    android:gravity="center|left"
+                    android:text="@string/works_ongoing_as_per_plan"
+                    android:textColor="@color/application_form_txt_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textColor="@color/asterisk_text_color"
+                    android:textSize="@dimen/application_form_txt_size" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rg_work_ongoing_as_plan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:theme="@style/RadioButtonStyle">
+
+                <RadioButton
+                    android:id="@+id/rb_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="@string/yes"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+                <RadioButton
+                    android:id="@+id/rb_not_started"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_started"
+                    android:textColor="@color/radio_text_color"
+                    android:textSize="@dimen/radio_text_size" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <include
+        android:id="@+id/file_for_native_citizen"
+        layout="@layout/container_file_for_native_citizen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

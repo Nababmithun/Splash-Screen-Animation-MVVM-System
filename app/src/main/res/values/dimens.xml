@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="package_row_header_height">45dp</dimen>
+    <dimen name="drawer_header_height">175dp</dimen>
+    <dimen name="drawer_item_height">55dp</dimen>
+    <dimen name="payment_text_size">12sp</dimen>
+    <dimen name="application_form_txt_size">12sp</dimen>
+    <dimen name="radio_text_size">12sp</dimen>
+    <dimen name="sign_up_form_margin">20dp</dimen>
+    <dimen name="sing_up_form_text_size">16sp</dimen>
+    <dimen name="scroll_view_bottom_padding">50dp</dimen>
+    <dimen name="fragment_zero_text_size">14sp</dimen>
+    <dimen name="faq_text_size">16sp</dimen>
+    <dimen name="drawer_layout_txt_size">12sp</dimen>
+    <dimen name="drawer_layout_icon_size">20dp</dimen>
+    <dimen name="column_width">160dp</dimen>
+    <dimen name="item_width">160dp</dimen>
+    <dimen name="item_height">140dp</dimen>
+    <dimen name="item_upper_portion_height">60dp</dimen>
+    <dimen name="circle_inner_icon_size">40dp</dimen>
+    <dimen name="item_text_size">15sp</dimen>
+    <dimen name="circle_text_bottom_margin">12dp</dimen>
+    <dimen name="linear_layout_item_margin">20dp</dimen>
+    <dimen name="inner_icon_margin_bottom">5dp</dimen>
+    <dimen name="inner_text_margin_top">37dp</dimen>
+    <dimen name="office_activity_title_height">120dp</dimen>
+    <dimen name="elevation">6dp</dimen>
+    <dimen name="office_activity_text_size">12sp</dimen>
+    <dimen name="construction_cost_activity_text_size">14sp</dimen>
+</resources>

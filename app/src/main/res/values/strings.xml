@@ -1,0 +1,617 @@
+<resources>
+    <string name="app_name">Splash Screen Animation</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="home_tab_title" translatable="false">HOME</string>
+    <string name="profile_tab_title" translatable="false">PROFILE</string>
+    <string name="settings_tab_title" translatable="false">SETTINGS</string>
+    <string name="package_name" translatable="false">PACKAGE NAME</string>
+    <string name="apply" translatable="false">APPLY</string>
+    <string name="time" translatable="false">Time</string>
+    <string name="tv_time" translatable="false">20 years</string>
+    <string name="tv_less_amount" translatable="false">889 tk</string>
+    <string name="tv_more_amount" translatable="false">980 tk</string>
+    <string name="tv_drawer_home" translatable="false">Home</string>
+    <string name="project_status_update" translatable="false">Project Status</string>
+    <string name="loan_calculator" translatable="false">Loan Calculator</string>
+
+    <string name="sign_in_or_sign_up" translatable="false">Sign In / Sign UP</string>
+    <string name="sign_out" translatable="false">Sign Out</string>
+    <string name="my_payment_history" translatable="false">MY PAYMENT HISTORY</string>
+    <string name="amount_paid" translatable="false">Amount Paid</string>
+    <string name="total_amount" translatable="false">Total Amount</string>
+    <string name="amount_payable" translatable="false">Amount Payable</string>
+    <string name="installments_done" translatable="false">Installments Done</string>
+    <string name="installments_left" translatable="false">Installments Left</string>
+    <string name="total_installments" translatable="false">Total Installments</string>
+    <string name="text_amount" translatable="false">300000 tk</string>
+    <string name="e_payment" translatable="false">E-PAYMENT</string>
+    <string name="hint_amount" translatable="false">Amount</string>
+    <string name="hint_account_no" translatable="false">Account No</string>
+    <string name="pay_now" translatable="false">PAY NOW</string>
+    <string name="principal_amount" translatable="false">Principal Amount (tk)</string>
+    <string name="interest_rate" translatable="false">Interest Rate(%)</string>
+    <string name="duration_year" translatable="false">Duration(year)</string>
+    <string name="calculate" translatable="false">CALCULATE</string>
+    <string name="error_text_amount" translatable="false">Please input principal amount!</string>
+    <string name="error_text_interest_rate" translatable="false">Please input interest rate!</string>
+    <string name="error_text_duration" translatable="false">Please input duration</string>
+    <string name="payment_amount_per_month" translatable="false">Payment Amount Per Month</string>
+    <string name="bhbfc" translatable="false">Bangladesh House Building\n Finance Corporation</string>
+    <string name="hot_line" translatable="false">Help Desk</string>
+    <string name="location_permission_denied" translatable="false">Location Permission Denied!</string>
+    <string name="permission_required_toast" translatable="false">Location permission required!</string>
+    <string name="permission_rationale_location" translatable="false">You need to allow the asked permission to make this app work perfectly!</string>
+    <string name="image_storage_directory" translatable="false">BHBFC_IMAGES</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="phone" translatable="false">Phone</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="sign_up" translatable="false">SIGN UP</string>
+    <string name="sign_in" translatable="false">SIGN IN</string>
+    <string name="text_sign_up_hint" translatable="false">Don\'t have an account yet?</string>
+    <string name="text_error_hint_name" translatable="false">Please input your name!</string>
+    <string name="text_error_hint_phone" translatable="false">Please input your phone no!</string>
+    <string name="text_error_hint_email" translatable="false">Please input your email!</string>
+    <string name="text_error_hint_pass" translatable="false">Please enter password!</string>
+    <string name="text_error_hint_re_pass" translatable="false">Please re-enter password!</string>
+    <string name="sign_up_success_status" translatable="false">Sing up successful!</string>
+    <string name="sing_in_success_status" translatable="false">Sing in successful!</string>
+    <string name="text_error_hint_email_phone" translatable="false">Input your email or phone no!</string>
+    <string name="et_password_error_hint" translatable="false">Password did not match!</string>
+    <string name="office_address" translatable="false">House No: 203/A, Motijheel, Dhaka-1203.</string>
+    <string name="office_name" translatable="false">Bhbfc Dhaka Branch</string>
+    <string name="district" translatable="false">Dhaka</string>
+
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+
+    <string name="package_array" translatable="false">
+        <item>POLLIMA</item>
+        <item>NAGAR-BONDHU</item>
+        <item>PROBAS_BONDHU</item>
+        <item>ABASON UNNOYON</item>
+        <item>ABASON MERAMOT</item>
+        <item>POLLIMA</item>
+        <item>FLAT RIN</item>
+        <item>Krishok Bondhu</item>
+    </string>
+
+    <string name="password_not_matched" translatable="false">Password did not match!</string>
+    <string name="enter_valid_email" translatable="false">Enter a valid email!</string>
+    <string name="upload_image" translatable="false">Upload Image</string>
+
+    <string name="house_construction">House Construction</string>
+    <string name="house_extension">House Extension</string>
+    <string name="house_renovation">House Renovation</string>
+    <string name="flat_purchase">Flat Purchase</string>
+
+    <string name="choose_file_to_upload" translatable="false">Choose File to Upload..</string>
+    <string name="instalment_amount" translatable="false">Instalment Amount(tk)</string>
+    <string name="regarding_flat_loan">ফ্লাট ঋণ সংক্রান্ত</string>
+    <string name="regarding_house_loan">গৃহ নির্মাণ ঋণ সংক্রান্ত</string>
+    <string name="app_play_store_url" translatable="false">App Play Store Url</string>
+    <string name="_10_am_6_pm" translatable="false">10 am - 6 pm</string>
+    <string name="sunday_to_thursday" translatable="false">SUNDAY to THURSDAY</string>
+    <string name="search_text" translatable="false">Search location</string>
+    <string name="sign_in_sign_up" translatable="false">SIGN IN/SIGN UP</string>
+    <string name="dialog_log_out" translatable="false">Logging out ....</string>
+
+    <string name="select_appropriate_loan_services_for_you_automatically" translatable="false">স্বয়ংক্রিয়ভাবে আপনার জন্য উপযুক্ত ঋণসেবা বাছাই করুন</string>
+    <string name="click_here_for_temporary_loan_application" translatable="false">ঋণের সাময়িক আবেদন করতে এখানে ক্লিক করুন </string>
+    <string name="bhbfc_construction_costing_calculator" translatable="false">BHBFC Construction Costing Calculator</string>
+    <string name="residential_area_n_2774_sft" translatable="false">Residential Area (SFT)</string>
+    <string name="parking_area_n_2251_sft" translatable="false">Parking Area (SFT)</string>
+    <string name="typical_floor_area_each_1693_sft" translatable="false">Typical Floor Area (SFT)</string>
+    <string name="number_of_top_floor_s" translatable="false">Number of Top Floor</string>
+    <string name="total_costing_taka" translatable="false">Estimated Cost = </string>
+    <string name="clear" translatable="false">CLEAR</string>
+    <string name="email_user_gmail_com" translatable="false">email: user@gmail.com</string>
+    <string name="notification" translatable="false">Notification</string>
+    <string name="month_duration" translatable="false">Duration(month)</string>
+    <string name="language" translatable="false">Change Language</string>
+    <string name="english" translatable="false">English</string>
+    <string name="bangla" translatable="false">Bangla</string>
+    <string name="on" translatable="false">On</string>
+    <string name="off" translatable="false">Off</string>
+
+
+    <array name="project_location_names" translatable="false">
+        <item>Dhaka Metro</item>
+        <item>Chattogram Metro</item>
+
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Bogura</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chapai Nawabganj</item>
+        <item>Chattogram</item>
+        <item>Chuadanga</item>
+        <item>Cox\'s Bazar</item>
+        <item>Cumilla</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jamalpur</item>
+        <item>Jashore</item>
+        <item>Jhalokati</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+        <item>Khagrachhari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+
+    </array>
+
+    <array name="profession_names" translatable="false">
+        <item>Service</item>
+        <item>Business</item>
+        <item>Doctor</item>
+        <item>Engineer</item>
+        <item>Lawyer</item>
+        <item>Landlord</item>
+        <item>Others</item>
+    </array>
+
+    <array name="monthly_income_ranges" translatable="false">
+        <item>5,000-20,000 /-</item>
+        <item>20,000-30,000 /-</item>
+        <item>30,000-40,000 /-</item>
+        <item>50,000-60,000 /-</item>
+        <item>60,000-70,000 /-</item>
+        <item>70,000-80,000 /-</item>
+        <item>80,000-90,000 /-</item>
+        <item>90,000-100000 /-</item>
+        <item>100,000-120,000 /-</item>
+        <item>120,000-150,000 /-</item>
+        <item>150,000-200,000 /-</item>
+        <item>200,000 +</item>
+    </array>
+
+    <array name="foreign_country_names" translatable="false">
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Brunei</item>
+        <item>Bahrain</item>
+        <item>Canada</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Kuwait</item>
+    </array>
+
+    <array name="land_acquired_by" translatable="false">
+        <item>Succession</item>
+        <item>Purchase</item>
+        <item>Concession</item>
+        <item>Lease</item>
+        <item>Others</item>
+    </array>
+
+    <array name="road_owned_by" translatable="false">
+        <item>Private Road</item>
+        <item>Housing Society</item>
+        <item>Municipality</item>
+        <item>City Corporation</item>
+        <item>RAJUK</item>
+        <item>CDA</item>
+        <item>RDA</item>
+        <item>KDA</item>
+        <item>Others</item>
+    </array>
+
+    <array name="plan_approved_by" translatable="false">
+        <item>Municipality</item>
+        <item>City Corporation</item>
+        <item>RAJUK</item>
+        <item>CDA</item>
+        <item>RDA</item>
+        <item>KDA</item>
+        <item>Union Parishad</item>
+    </array>
+
+    <array name="present_condition_of_project" translatable="false">
+        <item>Green Field</item>
+        <item>Piling Ongoing</item>
+        <item>Piling Complete</item>
+        <item>Ground Floor Complete</item>
+        <item>First Floor Complete</item>
+        <item>Second Floor Complete</item>
+        <item>Third Floor Complete</item>
+        <item>Fourth Floor Complete</item>
+        <item>Fifth Floor Complete</item>
+        <item>Need to Renovate</item>
+    </array>
+
+    <string-array name="district_names" translatable="false">
+
+        <item>Dhaka Metro</item>
+        <item>Chattogram Metro</item>
+
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Bogura</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chapai Nawabganj</item>
+        <item>Chattogram</item>
+        <item>Chuadanga</item>
+        <item>Cox\'s Bazar</item>
+        <item>Cumilla</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jamalpur</item>
+        <item>Jashore</item>
+        <item>Jhalokati</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+        <item>Khagrachhari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+
+    </string-array>
+
+    <string-array name="floor_list" translatable="false">
+        <item>0</item>
+        <item>1 Floor after Ground</item>
+        <item>2 Floor after Ground</item>
+        <item>3 Floor after Ground</item>
+        <item>4 Floor after Ground</item>
+        <item>5 Floor after Ground</item>
+        <item>6 Floor after Ground</item>
+        <item>7 Floor after Ground</item>
+        <item>8 Floor after Ground</item>
+        <item>9 Floor after Ground</item>
+    </string-array>
+
+    <string name="item_text" translatable="false">About BHBFC</string>
+    <string name="bhbfc_bangla_title" translatable="false">বাংলাদেশ হাউস বিল্ডিং ফাইনান্স কর্পোরেশন</string>
+    <string name="tv_soil_test">নির্মিতব্য ভবনের/ফ্ল্যাটের সয়েল টেস্ট রিপোর্ট আছে কি?</string>
+
+    <string name="menu_about_bhbfc">বিএইচবিএফসি সর্ম্পকে</string>
+    <string name="menu_about_offices">অফিস সমূহ</string>
+    <string name="menu_about_loan_services">ঋণসেবা সমূহ</string>
+    <string name="menu_about_possible_construction_expenses">সম্ভাব্য নির্মাণ খরচ হিসাবায়ন</string>
+    <string name="menu_about_emi_calculator">EMI ক্যালকুলেটর</string>
+    <string name="menu_about_loan_for_govt_services">সরকারি কর্মচারীদের জন্য গৃহ ঋণ</string>
+    <string name="menu_about_rural_peri_urban_loan">রুরাল ও পেরি-আরবান হাউজিং ফাইনান্স প্রজেক্ট</string>
+    <string name="menu_about_necessary_documents_for_loan">ঋণ আবেদনের জন্য প্রয়োজনীয় ডকুমেন্টস</string>
+    <string name="menu_about_loan_application_system">ঋণ আবেদন প্রসেস পদ্ধতি</string>
+    <string name="bhbfc_notice_board">বিএইচবিএফসি নোটিশ বোর্ড</string>
+    <string name="menu_about_loan_payment_system">ঋণ পরিশোধ পদ্ধতি</string>
+    <string name="menu_about_help_desk">হেল্প ডেস্ক</string>
+    <string name="menu_loan_application_or_existing_recipient_login">ঋণের আবেদন/বিদ্যমান গ্রহীতাগণ লগইন করুন</string>
+    <string name="faq">আপনার জিজ্ঞাসা</string>
+    <string name="menu_about_temporary_loan_application">ঋণের সাময়িক আবেদন</string>
+    <string name="menu_about_loan_statements">ঋণের হিসাব বিবরণী</string>
+    <string name="menu_about_loan_balance_overdue">ঋণের ব্যালেন্স ও ওভারডিউ</string>
+    <string name="menu_about_online_payment">অনলাইন পেমেন্ট</string>
+    <string name="menu_about_location_finding">প্রস্তাবিত ভবনের লোকেশন চিহ্নিত করুন(শুধুমাত্র বিএইচবিএফসি কর্মচারী)</string>
+
+    <string name="notice_videos">বিএইচবিএফসি ডকুমেন্টারি সমূহ</string>
+    <string name="notice_interviews">টিভি ইন্টারভিউ সমূহ</string>
+    <string name="notice_others">অন্যান্য নোটিশ</string>
+
+    <string name="head_quarter">সদর দফতর, মহাবিভাগ ও বিভাগসমূহ</string>
+    <string name="zonal_offices">জোনাল অফিস সমূহ</string>
+    <string name="regional_offices">রিজিওনাল অফিস সমূহ</string>
+    <string name="branch_offices">শাখা অফিস সমূহ</string>
+    <string name="near_by_office">নিকটবর্তী অফিস সমূহ</string>
+
+    <string name="click_here_to_automatically_n_select_certain_office_for_you">স্বয়ংক্রিয়ভাবে আপনার জন্য নির্দিষ্ট অফিস নির্বাচন করতে এখানে ক্লিক করুন</string>
+
+
+    <string name="sub_menu_loan_payment_system_1">Over The Counter(OTC) জমাদান পদ্ধতি</string>
+    <string name="sub_menu_loan_payment_system_2">BEFTN এর মাধ্যমে মাসিক কিস্তি প্রদান</string>
+    <string name="sub_menu_loan_payment_system_3">অনলাইন এর মাধ্যমে কিস্তির টাকা প্রদান</string>
+    <string name="sub_menu_loan_payment_system_4">Mobile Banking এর মাধ্যমে কিস্তির টাকা প্রদান</string>
+    <string name="under_construction" translatable="false">Under Construction!</string>
+    <string name="construction_cost_activity_title">নির্মাণ খরচ  হিসাবায়ন</string>
+    <string name="loan_services_activity_title">ঋণসেবা সমূহ</string>
+    <string name="emi_calculator_activity_title">ক্যালকুলেটর</string>
+    <string name="loan_payment_system_activity_title">ঋণ পরিশোধ পদ্ধতি</string>
+    <string name="faq_activity_title">আপনার জিজ্ঞাসা</string>
+    <string name="help_desk_activity_title">হেল্প ডেস্ক</string>
+    <string name="activity_title">বিএইচবিএফসি</string>
+    <string name="project_status_update_activity_title">লোকেশন চিহ্নিত করণ</string>
+    <string name="loan_application_form">ঋণ আবেদন ফরম</string>
+    <string name="location_caution_text">***নিকটতম বিএইচবিএফসি অফিস খুঁজে পেতে, আপনার লোকেশন জানা প্রয়োজন । যদি লোকেশন না পাওয়া যায়, তাহলে দয়াকরে আপনার ফোনের লোকেশন সার্ভিস অন করুন এবং আবার প্রেস করুন ।</string>
+
+    <string name="installment_submission">কিস্তির টাকা প্রদান</string>
+    <string name="fee_submission">ফি প্ৰদান</string>
+    <string name="form_fee_submission">ফরমের মূল্য প্রদান</string>
+    <string name="online_payment_activity_title">অনলাইন পেমেন্ট </string>
+
+    <!--texts for application form-->
+    <string name="please_read_the_terms_and_conditions_be_you_apply">আবেদন করার আগে দয়া করে শর্তাবলীগুলো পড়ুন:</string>
+    <string name="question_and_answer">ফ্ল্যাট ঋণ এবং গৃহঋণের বিষয়ে প্রশ্ন এবং উত্তর জানতে নীচে ক্লিক করুন:</string>
+    <string name="click_below_to_the_monthly_installment_of_the_loan">ঋণের মাসিক কিস্তি জানতে নীচের ক্লিক করুন ।</string>
+    <string name="calculate_monthly_installment">মাসিক কিস্তি গণনা করুন</string>
+    <string name="required_documents_in_online_application">অনলাইন আবেদনের জন্য প্রয়োজনীয় কাগজপত্র:</string>
+    <string name="for_native_citizen">স্থানীয় নাগরিকদের জন্য:</string>
+    <string name="_1_scanned_passport_size_photo_of_applicant">১. আবেদনকারীর স্ক্যান-কৃত পাসপোর্ট সাইজের ছবি ।</string>
+    <string name="_2_national_id_scanned_image">২. জাতীয় পরিচয়পত্রের স্ক্যান-কৃত ছবি ।</string>
+    <string name="_3_scanned_copy_of_design_layout">৩. প্রস্তাবিত ভবনের লেআউট নকশার স্ক্যান-কৃত কপি ।</string>
+    <string name="for_expatriate_citizen">প্রবাসী নাগরিকদের জন্য</string>
+    <string name="_1_scanned_copy_of_5th_and_7th_pages_of_passport">১. পাসপোর্টের ৫ম এবং ৭ম পৃষ্ঠার স্ক্যান-কৃত কপি ।</string>
+    <string name="tv_citizenship">আপনি জন্মসূত্রে বাংলাদেশী নাগরিক?</string>
+    <string name="tv_age">আপনার বয়স কি ১৮-৬৫ এর মধ্যে?</string>
+    <string name="text_attorney_for_sale">ডেভেলপার এর রেজিস্টার্ড পাওয়ার-অব-এটর্ণী ফর-সেল আছে?</string>
+    <string name="text_have_contract">ডেভেলপার অথবা জমির মালিকের সাথে আপনার দ্বিপাক্ষিক চুক্তি আছে?</string>
+    <string name="tv_approved_plan">ভবন নির্মাণে অনুমোদিত নকশা আছে?</string>
+    <string name="tv_original_deed">জমির মূল দলিল কি আপনার হেফাজতে আছে?</string>
+    <string name="abroad_duration">আপনি ৩ বছরের অধিক সময় যাবৎ বিদেশে অবস্থান করছেন?</string>
+    <string name="have_the_main_deed_collection_receipt">রেজিস্ট্রি অফিস থেকে দলিল উত্তোলনের মূল রশিদ আছে?</string>
+    <string name="project_location">যে জেলায় আপনি বাড়ি নির্মাণ/সংস্কার বা ফ্ল্যাটক্রয় করতে আগ্রহী?</string>
+    <string name="tv_country">আপনি কোথায় অবস্থান করছেন?</string>
+    <string name="tv_loan_type">আপনি গৃহঋণ নিয়ে কি করতে চান?</string>
+
+    <string name="project_s_thana_upazila">যে থানায় আপনি বাড়ি নির্মাণ/সংস্কার বা ফ্ল্যাটক্রয় করতে আগ্রহী?</string>
+    <string name="thana_upozila_of_project">Thana/Upozila of Project</string>
+    <string name="details_address_of_proposed_project">Details Address of Proposed Project</string>
+    <string name="check_suggested_loan_type">আপনার জন্য প্রস্তাবিত ঋণ বাছাই করতে টিক দিন </string>
+    <string name="applicant_s_name">আবেদনকারীর নাম (বাংলায়)</string>
+    <string name="father_s_name">আবেদনকারীর বাবা\'র নাম</string>
+    <string name="mother_s_name">আবেদনকারীর মা\'র নাম</string>
+    <string name="marital_status">বৈবাহিক অবস্থা</string>
+    <string name="gender">Gender</string>
+    <string name="bachelor">Bachelor</string>
+    <string name="married">Married</string>
+    <string name="widowed">Widowed</string>
+    <string name="divorced">Divorced</string>
+    <string name="spouse_s_name">আপনার স্বামী/স্ত্রী’র নাম?</string>
+    <string name="date_of_birth">আপনার জন্ম তারিখ; জাতীয় পরিচয়পত্র অনুযায়ী</string>
+    <string name="contact_number">[কান্ট্রিকোডসহ সম্পূর্ণ মোবাইল নাম্বার লিখুন, ইংরেজীতে]</string>
+    <string name="permanent_residence">আপনার স্থায়ী জেলা</string>
+    <string name="permanent_address_details">স্থায়ী আবাসনের বিস্তারিত ঠিকানা</string>
+
+    <string name="passport_no_of_bangladesh">বাংলাদেশের পাসপোর্ট নাম্বার</string>
+    <string name="applicant_name_as_per_nid">জাতীয় পরিচয়পত্র অনুযায়ী আবেদনকারীর নাম লিখুন, ইংরেজীতে</string>
+    <string name="national_id_no">জাতীয় পরিচয়পত্রের নাম্বার</string>
+
+    <string name="monthly_income_tk">মাসিক আয় (টাকা)</string>
+    <string name="profession">Profession</string>
+    <string name="business_name">ব্যবসার নাম</string>
+    <string name="other_profession">অন্য পেশার নাম</string>
+    <string name="present_living_station">বর্তমান বাসস্থানের ঠিকানা</string>
+    <string name="present_address_details">বিস্তারিত বর্তমান ঠিকানা</string>
+    <string name="designation_rank">পদবি</string>
+    <string name="trade_license_no">ট্রেড লাইসেন্স নাম্বার</string>
+    <string name="country">দেশ</string>
+    <string name="province_city">প্রভিন্স/সিটি</string>
+    <string name="foreign_address_details">বিদেশের বিস্তারিত ঠিকানা</string>
+
+    <string name="desired_loan_amount_taka">কাঙ্ক্ষিত ঋণের পরিমান (টাকা)</string>
+
+    <string name="land_acquired_by">আপনি যে পদ্ধতিতে জমি অধিগ্রহণ করেছেন</string>
+    <string name="how_acquired">আপনি অন্য কোন উপায়ে জমি অধিগ্রহণ করেছেন</string>
+
+    <string name="land_area_sft">স্কয়ার ফিটে ভূমির পরিমাণ</string>
+    <string name="land_area_in_square_feet">স্কয়ার ফিটে ভূমির পরিমাণ</string>
+    <string name="assumed_rent_income_in_taka_per_sft">প্রতি স্কয়ার ফিটে আনুমানিক আয়কৃত ভাড়ার পরিমাণ (টাকা)</string>
+    <string name="front_side_road_in_permitted_plan">অনুমোদিত প্ল্যানে ফ্রন্ট সাইড রোড (ফুট)</string>
+    <string name="front_side_road_at_actual">প্রকৃত ফ্রন্ট সাইড রোড (ফুট)</string>
+    <string name="distance_from_main_road_feet">প্রধান রোড থেকে দূরত্ব (ফুট)</string>
+
+    <string name="private_service">বেসরকারি চাকরি</string>
+    <string name="government_service">সরকারি চাকরি</string>
+    <string name="other">অন্যান্য</string>
+    <string name="employer_name">চাকুরীদাতার নাম</string>
+
+    <string name="road_owned_by">রাস্তার মালিকানা</string>
+    <string name="front_side_road_type">প্রজেক্টের সামনের রোড কোন ধরণের ?</string>
+    <string name="carpeted">Carpeted</string>
+    <string name="rcc">RCC</string>
+    <string name="bricks_made">Bricks Made</string>
+    <string name="plan_approved_by">যে উপায়ে প্ল্যান অনুমোদিত হয়েছে</string>
+    <string name="present_condition_of_project">প্রকল্পের বর্তমান অবস্থা</string>
+    <string name="approved_plan_number">অনুমোদিত প্ল্যানের নাম্বার</string>
+    <string name="plan_approval_date">প্ল্যান অনুমোদনের তারিখ</string>
+    <string name="works_ongoing_as_per_plan">কাজ কি পরিকল্পনা অনুযায়ী এগোচ্ছে?</string>
+    <string name="not_started">Not Started</string>
+    <string name="passport_size_photo">পাসপোর্ট সাইজ ছবি</string>
+    <string name="choose_file">ফাইল বাছাই করুন</string>
+    <string name="no_file_chosen">কোনো ফাইল বাছাই হয়নি</string>
+    <string name="national_id_front_page">জাতীয় পরিচয়পত্রের ফন্ট পেইজের ছবি</string>
+    <string name="layout_portion_of_approved_plan">অনুমোদিত প্ল্যানের লেআউট অংশের ছবি</string>
+    <string name="passport_s_5th_page_image">পাসপোর্ট এর ৫ম পেইজের ছবি</string>
+    <string name="passport_s_seventh_page_image">পাসপোর্ট এর ৭ম পেইজের ছবি</string>
+    <string name="representative_s_national_id_front_page">আপনার প্রতিনিধির জাতীয় পরিচয়পত্রের ফন্ট পেইজের ছবি </string>
+    <string name="representative_name">প্রতিনিধির নাম</string>
+    <string name="representative_s_father">প্রতিনিধির বাবার নাম</string>
+    <string name="representative_s_mother">প্রতিনিধির মায়ের নাম</string>
+    <string name="representative_s_nid_no">প্রতিনিধির জাতীয় পরিচয়পত্রের নাম্বার</string>
+    <string name="representative_s_profession">প্রতিনিধির পেশা</string>
+    <string name="representative_living_in">প্রতিনিধির জেলা</string>
+    <string name="representative_address">প্রতিনিধির ঠিকানা</string>
+    <string name="representative_cell_number">প্রতিনিধির মোবাইল নাম্বার</string>
+    <string name="national_id_back_page">জাতীয় পরিচয়পত্রের পিছনের পেইজের ছবি</string>
+    <string name="tin_number">TIN নাম্বার</string>
+
+    <!--texts for application form-->
+
+
+    <string name="to_take_project_images_click_below_button">প্রজেক্টের ছবি তোলতে নিচের বাটনে ক্লিক করুন।</string>
+    <string name="take_image">ছবি তোলেন</string>
+    <string name="update_status">স্ট্যাটাস আপলোড করেন</string>
+    <string name="already_have_an_account" translatable="false">Already have an account?</string>
+    <string name="activity_title_notice_board">নোটিশ বোর্ড</string>
+    <string name="general_notice">সাধারণ নোটিশ</string>
+    <string name="borrower_notice">ঋণ গ্রহীতাদের নোটিশ</string>
+    <string name="find_us_on_facebook">বিএইচবিএফসি ফেইসবুক পেইজ</string>
+    <string name="our_website">বিএইচবিএফসি ওয়েবসাইট</string>
+    <string name="loan_account_no">লোন একাউন্ট নাম্বার</string>
+    <string name="branch_code_no">ব্রাঞ্চ কোড নাম্বার</string>
+    <string name="short_description">শর্ট ডেসক্রিপশন</string>
+    <string name="head_office_address" translatable="false">২২, পুরানা পল্টন, ঢাকা ।</string>
+    <string name="loan_acc_statement">ঋণের হিসাব বিবরণী</string>
+    <string name="tax_statement">ট্যাক্সের হিসাব বিবরণী</string>
+    <string name="activity_title_account_statement">একাউন্ট স্টেটমেন্ট</string>
+
+
+    <array name="loan_type_array">
+        <item>সাধারণ ঋণের জন্য আবেদন ফি (০.০০৩%+১৫%ভ্যাট)</item>
+        <item>সাধারণ ঋণের জন্য পরিদর্শন ফি (০.০০৩%+১৫%ভ্যাট)</item>
+        <item>ফ্লাট ঋণের জন্য আবেদন ফি (০.০০৩%+১৫%ভ্যাট)</item>
+        <item>ফ্লাট ঋণের জন্য পরিদর্শন ফি (০.০০৩%+১৫%ভ্যাট)</item>
+        <item>হস্তান্তর ফি (শর্ত মোতাবেক) ২০০০/৪০০০/৭৫০০ টাকা</item>
+        <item>ফ্ল্যাটের জন্য দলিল সরবরাহ রশিদ ১০০০ টাকা</item>
+        <item>সাধারণ ঋণের জন্য দলিল সরবরাহ রশিদ ২০০ টাকা</item>
+    </array>
+
+    <array name="form_type_array">
+        <item>ঋণ আবেদন ফরম (ফ্ল্যাট) ১০০০ টাকা</item>
+        <item>ঋণ আবেদন ফরম (সাধারণ) ৫০০ টাকা</item>
+        <item>জামিনদারের ফরম ১০০ টাকা</item>
+        <item>রেহেন দলিল ফরম (প্রতিটি) ৫০ টাকা</item>
+        <item>ঋণ বিভাজন ফরম</item>
+    </array>
+
+    <array name="lock_address_array">
+        <item>Sirajganj</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Rangamati</item>
+        <item>Noakhali</item>
+        <item>Khulna</item>
+        <item>Satkhira</item>
+        <item>Bagherhat</item>
+        <item>Jessore</item>
+        <item>Kushtia</item>
+        <item>Rajshahi (own)</item>
+        <item>Bogra</item>
+        <item>Dinajpur</item>
+        <item>Pabna</item>
+        <item>Rangpur</item>
+        <item>Barisal (own)</item>
+        <item>Sylhett (own)</item>
+        <item>DHAKA, ZONE - 1</item>
+        <item>DHAKA, ZONE - 2</item>
+        <item>DHAKA, ZONE - 3</item>
+        <item>DHAKA, ZONE - 4</item>
+        <item>FARIDPUR</item>
+        <item>JAMALPUR</item>
+        <item>MYMENSINGH</item>
+        <item>TANGAIL</item>
+        <item>Perojpur</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Barguna</item>
+        <item>DHAKA, ZONE-5</item>
+        <item>DHAKA, ZONE-6</item>
+        <item>NARAYANGONG, ZONE-7</item>
+        <item>KISHOREGANJ</item>
+        <item>GOPALGANJ</item>
+        <item>Sreemongol</item>
+    </array>
+
+    <array name="loan_product_array">
+        <item>Nagarbondhu</item>
+        <item>Probashbondhu</item>
+        <item>Pallima</item>
+        <item>Abason Unnoyon</item>
+        <item>Abason Meramot</item>
+        <item>Krishokbondhu</item>
+    </array>
+
+    <array name="loan__type_array">
+        <item>General</item>
+        <item>Multi</item>
+        <item>Single</item>
+        <item>Group</item>
+        <item>Flat</item>
+    </array>
+</resources>

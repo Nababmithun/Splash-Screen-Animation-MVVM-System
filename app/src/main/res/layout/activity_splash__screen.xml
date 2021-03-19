@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".Splash_Screen">
+
+    <!--//Splash Screen design-->
+
+    <ImageView
+        android:id="@+id/iv_splash_bg_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_screen" />
+    <TextView
+        android:id="@+id/tv_bottom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="@string/bhbfc_bangla_title"
+        android:textColor="#13562b"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="120dp">
+
+        <ImageView
+            android:id="@+id/iv_logo_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bhbfc_logo" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/iv_logo_image"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:alpha=".8"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="@string/app_name"-->
+        <!--android:textColor="#13562b"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/text_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_logo_image"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            app:duration="1700"
+            app:paintStrokeColor="#13562b"
+            app:pathStrokeColor="#13562b"
+            app:pathStrokeWidth="3dp"
+            app:showPainter="true"
+            app:text="B H B F C"
+            app:textInCenter="true"
+            app:textSize="24sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
