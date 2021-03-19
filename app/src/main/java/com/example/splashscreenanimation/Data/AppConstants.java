@@ -1,4 +1,4 @@
-package com.example.splashscreenanimation;
+package com.example.splashscreenanimation.Data;
 
 
 public class AppConstants {

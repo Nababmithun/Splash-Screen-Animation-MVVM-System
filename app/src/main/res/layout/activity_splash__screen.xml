@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="false"
-    tools:context=".Splash_Screen">
+    tools:context=".View.Splash_Screen">
 
     <!--//Splash Screen design-->
 

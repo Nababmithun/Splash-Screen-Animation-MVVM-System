@@ -1,4 +1,4 @@
-package com.example.splashscreenanimation;
+package com.example.splashscreenanimation.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.splashscreenanimation.Data.AppConstants;
+import com.example.splashscreenanimation.R;
 
 import yanzhikai.textpath.AsyncTextPathView;
 
